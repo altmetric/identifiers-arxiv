@@ -1,0 +1,22 @@
+{
+  "name": "identifiers-arxiv",
+  "version": "0.1.0",
+  "description": "Extract, validate and normalize arXiv IDs.",
+  "keywords": ["arxiv", "identifiers"],
+  "main": "./lib/arxiv.js",
+  "repository": "https://github.com/altmetric/identifiers-arxiv",
+  "bugs": "https://github.com/altmetric/identifiers-arxiv/issues",
+  "author": "Paul Mucur",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "jest": "^18.1.0"
+  },
+  "scripts": {
+    "pretest": "eslint lib tests",
+    "test": "jest"
+  }
+}
