@@ -1,4 +1,3 @@
-/* globals test, expect */
 "use strict";
 
 const arxiv = require("../lib/arxiv");
