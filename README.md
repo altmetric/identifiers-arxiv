@@ -2,7 +2,7 @@
 
 Extract, validate and normalize [arXiv IDs](https://arxiv.org/help/arxiv_identifier).
 
-**Current version:** 0.1.0  
+**Current version:** 0.1.1  
 **Supported Node.js versions:** 4, 5, 6, 7
 
 ## Installation

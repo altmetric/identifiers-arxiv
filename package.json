@@ -1,6 +1,6 @@
 {
   "name": "identifiers-arxiv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract, validate and normalize arXiv IDs.",
   "keywords": [
     "arxiv",
