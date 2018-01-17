@@ -24,10 +24,21 @@ arxiv.extract("math.GT/0309136\narXiv:1501.00001v2");
 
 ## Other versions
 
-We also maintain versions of this library for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
+Other packages are available for different scholar identifiers:
+
+DOIs (and ISBN-As): https://github.com/altmetric/identifiers-doi  
+PubMed IDs: https://github.com/altmetric/identifiers-pubmed  
+ORCID: https://github.com/altmetric/identifiers-orcid  
+Handles: https://github.com/altmetric/identifiers-handle  
+National Clinical Trials IDs: https://github.com/altmetric/identifiers-nct  
+ADS Bibcodes : https://github.com/altmetric/identifiers-bibcode  
+RePEc IDs: https://github.com/altmetric/identifiers-repec  
+URNs: https://github.com/altmetric/identifiers-urn  
+
+We also maintain versions of these libraries for [Ruby](https://github.com/altmetric/identifiers) and [PHP](https://github.com/altmetric/php-identifiers).
 
 ## License
 
-Copyright © 2017 Altmetric LLP
+Copyright © 2018 Altmetric LLP
 
 Distributed under the [MIT License](http://opensource.org/licenses/MIT).
