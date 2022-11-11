@@ -3,7 +3,7 @@
 Extract, validate and normalize [arXiv IDs](https://arxiv.org/help/arxiv_identifier).
 
 **Current version:** 0.1.1  
-**Supported Node.js versions:** 4, 5, 6, 7
+**Supported Node.js versions:** 14, 15, 16, 17, 18, 19
 
 ## Installation
 
@@ -39,6 +39,6 @@ We also maintain versions of these libraries for [Ruby](https://github.com/altme
 
 ## License
 
-Copyright © 2018 Altmetric LLP
+Copyright © 2022 Altmetric LLP
 
 Distributed under the [MIT License](http://opensource.org/licenses/MIT).
