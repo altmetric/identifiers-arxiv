@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-  - node
-  - lts/*
-  - 19
-  - 18
-  - 17
-  - 16
-cache: npm
