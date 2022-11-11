@@ -39,6 +39,6 @@ We also maintain versions of these libraries for [Ruby](https://github.com/altme
 
 ## License
 
-Copyright © 2018 Altmetric LLP
+Copyright © 2022 Altmetric LLP
 
 Distributed under the [MIT License](http://opensource.org/licenses/MIT).

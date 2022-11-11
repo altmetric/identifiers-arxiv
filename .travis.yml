@@ -1,7 +1,9 @@
 language: node_js
 node_js:
   - node
-  - 6
-  - 5
-  - 4
-cache: yarn
+  - lts/*
+  - 19
+  - 18
+  - 17
+  - 16
+cache: npm
