@@ -5,11 +5,11 @@ function extract(str) {
 }
 
 function extractPre2007Ids(str) {
-    return extractIds(str, /(?:^|\s|\/)((?:arXiv:)?[a-z-]+(?:\.[A-Z]{2})?\/\d{2}(?:0[1-9]|1[012])\d{3}(?:v\d+)?(?=$|\s))/gi);
+    return extractIds(str, /(?:^|\s|\/|arXiv:)([a-z-]+(?:\.[A-Z]{2})?\/\d{2}(?:0[1-9]|1[012])\d{3}(?:v\d+)?(?=$|\s))/gi);
 }
 
 function extractPost2007Ids(str) {
-    return extractIds(str, /(?:^|\s|\/)((?:arXiv:)?\d{4}\.\d{4,5}(?:v\d+)?(?=$|\s))/gi);
+    return extractIds(str, /(?:^|\s|\/|arXiv:)(\d{4}\.\d{4,5}(?:v\d+)?(?=$|\s))/gi);
 }
 
 function extractIds(str, re) {
